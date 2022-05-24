@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `new`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.vtsafrica.net`
   },
   plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-sharp",
   `gatsby-plugin-anchor-links`, "gatsby-transformer-sharp",`gatsby-plugin-modal-routing`, {
@@ -23,6 +23,6 @@ module.exports = {
       display: `standalone`,
       icon: `src/images/favicon.png`
     },
-  },
+  },`gatsby-plugin-sitemap`,
 ]
 };
