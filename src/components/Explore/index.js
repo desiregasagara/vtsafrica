@@ -25,7 +25,7 @@ const Explore = () => {
                         // You can optionally force an aspect ratio for the generated image
                     
                         // This is a presentational image, so the alt should be an empty string
-                        alt=""
+                        alt="Eiffel Tower, Paris, France by Daniel Bounliane via Unsplash "
                         // Assisi, Perúgia, Itália by Bernardo Ferrari, via Unsplash
                         src={
                         "../../images/paris.jpg"
@@ -67,7 +67,7 @@ const Explore = () => {
                         // You can optionally force an aspect ratio for the generated image
                     
                         // This is a presentational image, so the alt should be an empty string
-                        alt=""
+                        alt="Hot Air Balloons, Temelecalum, United States by Kenny Krosky via Unsplash"
                         // Assisi, Perúgia, Itália by Bernardo Ferrari, via Unsplash
                         src={
                         "../../images/Temelecalum.jpg"
@@ -109,7 +109,7 @@ const Explore = () => {
                         // You can optionally force an aspect ratio for the generated image
                     
                         // This is a presentational image, so the alt should be an empty string
-                        alt=""
+                        alt="Lady in front of leaning tower, Pisa, Italy, by Jakob Owens via Unsplash"
                         // Assisi, Perúgia, Itália by Bernardo Ferrari, via Unsplash
                         src={
                         "../../images/Pisa.jpg"

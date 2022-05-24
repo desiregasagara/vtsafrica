@@ -24,7 +24,7 @@ const Hero = () =>{
         // You can optionally force an aspect ratio for the generated image
         
         // This is a presentational image, so the alt should be an empty string
-        alt=""
+        alt="Santorini,Greece by Jonathan Gallegos via Unsplash"
         // Assisi, Perúgia, Itália by Bernardo Ferrari, via Unsplash
         src={
             '../../images/Hero.png'

@@ -22,7 +22,7 @@ const Contact =()=> {
             // You can optionally force an aspect ratio for the generated image
             
             // This is a presentational image, so the alt should be an empty string
-            alt=""
+            alt="Airlines Partnered with Victoria Travel Services"
             // Assisi, Perúgia, Itália by Bernardo Ferrari, via Unsplash
             src={
                 '../../images/Background.png'

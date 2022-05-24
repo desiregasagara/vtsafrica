@@ -13,7 +13,7 @@ const Service = () =>{
             <div className={styles.container}>
                 <AnchorLink to="/#contact" className={styles.contactLink}>
                 <div className={styles.sblock}>
-                    <StaticImage src='../../images/ticket.jpeg' className={styles.simage}/>
+                    <StaticImage src='../../images/ticket.jpeg' alt="Air Tickets by Amir Hanna via Unsplash" className={styles.simage}/>
                     <span className={styles.serviceSpan}>
                         <p>Air Ticketing</p>
                     </span>
@@ -22,7 +22,7 @@ const Service = () =>{
 
                 <AnchorLink to="/#contact" className={styles.contactLink}>
                 <div className={styles.sblock}>
-                    <StaticImage src='../../images/gtravel.jpeg' className={styles.simage}/>
+                    <StaticImage src='../../images/gtravel.jpeg' alt="Group walking into beach by Oliver Sjostrom via Unsplash " className={styles.simage}/>
                     <span className={styles.serviceSpan}>
                         <p>Group Travel</p>
                     </span>
@@ -31,7 +31,7 @@ const Service = () =>{
                 
                 <AnchorLink to="/#contact" className={styles.contactLink}>
                 <div className={styles.sblock}>
-                    <StaticImage src='../../images/Study.jpeg' className={styles.simage}/>
+                    <StaticImage src='../../images/Study.jpeg' alt="Student studying in cafe by Reinhart Julian via Unsplash " className={styles.simage}/>
                     <span className={styles.serviceSpan}>
                         <p>Study Abroad</p>
                     </span>
@@ -42,7 +42,7 @@ const Service = () =>{
 
                 <AnchorLink to="/#contact" className={styles.contactLink}>    
                 <div className={styles.sblock2}>
-                    <StaticImage src='../../images/Visa.jpeg' className={styles.simage}/>
+                    <StaticImage src='../../images/Visa.jpeg' alt="American Passports by Brianna R via Unsplash" className={styles.simage}/>
                     <span className={styles.serviceSpan}>
                         <p>Visa Applications</p>
                     </span>
@@ -51,7 +51,7 @@ const Service = () =>{
 
                 <AnchorLink to="/#contact" className={styles.contactLink}>
                 <div className={styles.sblock2}>
-                    <StaticImage src='../../images/family.jpeg' className={styles.simage}/>
+                    <StaticImage src='../../images/family.jpeg' alt="Family kayaking in forest by Philippe Oursel via Unsplash" className={styles.simage}/>
                     <span className={styles.serviceSpan}>
                         <p>Family Trip Packages</p>
                     </span>
