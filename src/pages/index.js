@@ -6,6 +6,7 @@ import NavBar from '../components/NavBar'
 import Service from '../components/Services'
 import '../Sass/basics.scss'
 import { Link } from 'gatsby'
+import Footer from '../components/Footer'
 
 
 const IndexPage = () =>
@@ -26,7 +27,7 @@ const IndexPage = () =>
       <Explore/>
       <Service/>
       <Contact/>
-      
+      <Footer/>
     </div>
 
   )
