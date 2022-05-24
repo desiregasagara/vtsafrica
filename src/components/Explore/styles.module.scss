@@ -1,0 +1,74 @@
+.destinations{
+    padding-top: 2%;
+}
+
+.etitle{
+    text-align: center;
+}
+
+.eheader {
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 5% 10% 2% 10%; 
+    color:#5FC0E2;
+    font-weight: normal;
+    font-size: calc(1.25rem + (2 - 1.25) * ((100vw - 25rem) / (97.5 - 25)));
+  
+ } 
+ 
+.espan { 
+     background:#fff; 
+     padding:0 5%; 
+ }
+ .description{
+     font-size:calc(0.8rem + (1.25 - 0.8) * ((100vw - 25rem) / (97.5 - 25)));
+ }
+ .descriptions{
+    font-size:calc(0.64rem + (1.25 - 0.64) * ((100vw - 25rem) / (97.5 - 25)));
+ }
+
+ .image-container{
+     display: flex;
+     padding:5% 10%;
+
+ }
+ .contact-link{
+     display: contents;
+     text-decoration: none;
+ }
+
+ .container{
+    display:grid;
+    width: 30%;
+    padding: 0 2%;
+    
+ }
+ .image-text{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content:center ;
+    margin-top: 25%;
+    margin-right: 7%;
+    cursor: pointer;
+ }
+ .location-icon{
+     margin-top: 11%;
+ }
+ .location-icon2{
+    margin-top: 8%;
+}
+.location-icon3{
+    margin-top: 15%;
+}
+
+@media all and (max-width:767px){
+    .image-container{
+        flex-direction: column;
+    }
+    .container{
+        padding: 2%;
+        width: 100%;
+    }
+
+}

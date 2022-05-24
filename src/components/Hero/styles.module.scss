@@ -1,0 +1,28 @@
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10%;
+    text-align: center;
+}
+
+
+.header{
+    margin-top: -11%;
+    font-family: 'Poppins', sans-serif;
+    font-size: calc(1.563rem + (2.441 - 1.563) * ((100vw - 25rem) / (80 - 25)));
+    font-weight: bold;
+    color:#032539;
+
+}
+.btn{
+    display: inline-block;
+    background-color: rgba(95, 192, 226,1);
+    color:white;
+    margin-top: 15%;
+    padding: 0.5rem calc(2.5rem + (6.5 - 2.5 ) * ((100vw - 25rem) / (80 - 25)));
+    border: none;
+    border-radius: 1.563rem;
+    cursor:pointer;
+    font-size:calc(0.8rem + (1.563 - 0.8) * ((100vw - 25rem) / (80 - 25)));
+}
