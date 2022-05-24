@@ -11,5 +11,18 @@ module.exports = {
       "path": "./src/images/"
     },
     __key: "images"
-  }]
+  },
+  {
+    resolve: `gatsby-plugin-manifest`,
+    options: {
+      name: `Victoria Travel Services`,
+      short_name: `vtsafrica`,
+      start_url: `/`,
+      background_color: `#000`,
+      theme_color: `#000`,
+      display: `standalone`,
+      icon: `src/images/favicon.png`
+    },
+  },
+]
 };
