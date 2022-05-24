@@ -182,7 +182,7 @@
         width: 85%;
     }
     .nav > * {
-        vertical-align:middle;  // Align children to middle of line
+        vertical-align:middle !important;  // Align children to middle of line
     }
     input {
         &:checked + .nav-inner {
