@@ -18,8 +18,8 @@ const NavBar = () => {
             </div>
             <div className={styles.nav}>
                 
-                <AnchorLink to='#contact'><StaticImage src='../../images/logo.jpg' alt=' Victoria Travel Logo' className={styles.logo}/></AnchorLink>
-                <a href = "https://wa.me/250788313385" style={{display:"none",}}><div className={styles.border2}><StaticImage src='../../images/wapp.png' alt=' Victoria Travel Whatsapp link' className={styles.clogo2}/></div></a>
+                <StaticImage src='../../images/logo.jpg' alt=' Victoria Travel Logo' className={styles.logo}/>
+                <a href = "https://wa.me/250788313385" className={styles.flexLogo}><div className={styles.border2}><StaticImage src='../../images/wapp.png' alt=' Victoria Travel Whatsapp link' className={styles.clogo2}/></div></a>
                 <label className={styles.label} for="toggle" >&#9776;</label>
                 <input type="checkbox" id="toggle" className={styles.toggle}/>
 

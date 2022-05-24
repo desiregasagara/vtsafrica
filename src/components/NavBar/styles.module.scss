@@ -49,6 +49,9 @@
     height: auto;
     display: none;
 }
+.flex-logo{
+    display:none;
+}
 .number{
     padding: 0 2rem;
     color:grey;
@@ -158,6 +161,9 @@
     .navlink{
         padding:2% calc(0.8rem + (3.563 - 0.8) * ((100vw - 25rem) / (80 - 25)));
        
+    }
+    .flex-logo{
+        display: initial;
     }
     .nav-inner{
         display: flex;
