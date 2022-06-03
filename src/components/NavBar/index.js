@@ -13,13 +13,13 @@ const NavBar = () => {
                 <div className={styles.border2}><StaticImage src='../../images/fbook.png' alt=' Victoria Travel Facebook link' className={styles.clogo}/></div>
                 <div className={styles.border2}><StaticImage src='../../images/igram.jpeg' alt=' Victoria Travel Instagram link' className={styles.clogo}/></div>
                 <a href = "https://wa.me/250788313385"><div className={styles.border1}><StaticImage src='../../images/wapp.png' alt=' Victoria Travel Whatsapp link' className={styles.clogo}/></div></a>
-                <a href="tel:250788313385" className={styles.numberLink}><div className={styles.number}>+250 788 313 385</div></a>
+                <a href="tel:250783788860" className={styles.numberLink}><div className={styles.number}>+250 783 788 860</div></a>
 
             </div>
             <div className={styles.nav}>
                 
                 <StaticImage src='../../images/logo.jpg' alt=' Victoria Travel Services Logo' className={styles.logo}/>
-            <div className={styles.wnav}>  <a href = "https://wa.me/250788313385" className={styles.flexLogo}><div className={styles.border2}><StaticImage src='../../images/wapp.png' alt=' Victoria Travel Whatsapp link' className={styles.clogo2}/></div></a></div> 
+            <div className={styles.wnav}>  <a href = "https://wa.me/250783788760" className={styles.flexLogo}><div className={styles.border2}><StaticImage src='../../images/wapp.png' alt=' Victoria Travel Whatsapp link' className={styles.clogo2}/></div></a></div> 
                 <label className={styles.label} for="toggle" >&#9776;</label>
                 <input type="checkbox" id="toggle" className={styles.toggle}/>
 
