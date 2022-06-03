@@ -1,7 +1,9 @@
 .navbar{
     background: white;
 }
-
+.wnav{
+    display: none;
+}
 .contact{
     display: flex;
     justify-content: flex-end;
@@ -183,6 +185,10 @@
     }
     .nav > * {
         vertical-align:middle !important;  // Align children to middle of line
+    }
+    .wnav{
+        display: -webkit-inline-box;
+        margin-left:42%; 
     }
     input {
         &:checked + .nav-inner {
