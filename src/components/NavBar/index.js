@@ -9,7 +9,7 @@ const NavBar = () => {
     return(
         <div className={styles.navbar}> 
             <div className={styles.contact}>
-                <a href = "mailto: info@vtsafrica.com"><div className={styles.border}><StaticImage src='../../images/Gmail.jpeg' alt=' Victoria Travel Gmail link' className={styles.clogo}/></div></a>
+                <a href = "mailto: joselyne.ishimwe@gmail.com"><div className={styles.border}><StaticImage src='../../images/Gmail.jpeg' alt=' Victoria Travel Gmail link' className={styles.clogo}/></div></a>
                 <div className={styles.border2}><StaticImage src='../../images/fbook.png' alt=' Victoria Travel Facebook link' className={styles.clogo}/></div>
                 <div className={styles.border2}><StaticImage src='../../images/igram.jpeg' alt=' Victoria Travel Instagram link' className={styles.clogo}/></div>
                 <a href = "https://wa.me/250783788860"><div className={styles.border1}><StaticImage src='../../images/wapp.png' alt=' Victoria Travel Whatsapp link' className={styles.clogo}/></div></a>

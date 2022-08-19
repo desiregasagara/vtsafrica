@@ -48,7 +48,10 @@ const Explore = () => {
                         {/* Any content here will be centered in the component */}
                         <div className={styles.imageText}>
                             <StaticImage src="../../images/location.png" className={styles.locationIcon}/>
-                            <p className={styles.descriptions}>Paris, France</p>
+                            <p className={styles.descriptions}>Europe</p>
+                            <div className={styles.overlay}>
+                                <div className={styles.overlayText2}>BRUXELLES, PARIS, TURKEY, DUBAI </div>
+                            </div>
                         </div>    
                     </div>
                 </div>
@@ -90,7 +93,11 @@ const Explore = () => {
                         {/* Any content here will be centered in the component */}
                         <div className={styles.imageText}>
                             <StaticImage src="../../images/location.png" className={styles.locationIcon2}/>
-                            <p className={styles.descriptions}>Temelecalum, United States</p>
+                            <p className={styles.descriptions}>North America</p>
+                            <div className={styles.overlay}>
+                                <div className={styles.overlayText}>USA, CANADA         
+(MONTREAL, TORONTO, OTTAWA)   </div>
+                            </div>
                         </div>    
                     </div>
                 </div>
@@ -109,10 +116,10 @@ const Explore = () => {
                         // You can optionally force an aspect ratio for the generated image
                     
                         // This is a presentational image, so the alt should be an empty string
-                        alt="Lady in front of leaning tower, Pisa, Italy, by Jakob Owens via Unsplash"
+                        alt="Lady in front of sunset, Dar es Salaam, Tanzania, by Ema Studios via Unsplash"
                         // Assisi, Perúgia, Itália by Bernardo Ferrari, via Unsplash
                         src={
-                        "../../images/Pisa.jpg"
+                        "../../images/Tanzania.jpg"
                         }
                         formats={["auto", "webp", "avif"]}
                     />
@@ -132,7 +139,10 @@ const Explore = () => {
                         {/* Any content here will be centered in the component */}
                         <div className={styles.imageText}>
                             <StaticImage src="../../images/location.png" className={styles.locationIcon3}/>
-                            <p className={styles.descriptions}>Pisa, Italy</p>
+                            <p className={styles.descriptions}>Africa</p>
+                            <div className={styles.overlay}>
+                                <div className={styles.overlayText}>KENYA, DAR ES SALAAM, ENTEBBE, LUSAKA, SOUTH AFRICA, MALI </div>
+                            </div>
                         </div>    
                     </div>
                 </div>

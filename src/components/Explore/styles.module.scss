@@ -52,6 +52,46 @@
     margin-right: 7%;
     cursor: pointer;
  }
+ .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+ }
+ .image-text:hover .overlay{
+    opacity: 1;
+ }
+ .overlay-text {
+    color: white;
+    font-size: calc(0.8rem + (1.25 - 0.8) * ((100vw - 25rem) / (97.5 - 25)));;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 73%;
+    width: 100%;
+  }
+  .overlay-text2 {
+    color: white;
+    font-size: calc(0.8rem + (1.25 - 0.8) * ((100vw - 25rem) / (97.5 - 25)));;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    bottom: 73%;
+    left: 50%;
+  }
+  .overlay-text3 {
+    color: white;
+    font-size: calc(0.8rem + (1.25 - 0.8) * ((100vw - 25rem) / (97.5 - 25)));;
+    position: absolute;
+    text-align: center;
+  }
+
  .location-icon{
      margin-top: 11%;
  }
